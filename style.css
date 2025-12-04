@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #0f0f0f;
+  font-family: 'Poppins', sans-serif;
+  color: #eaeaea;
+  text-align: center;
+}
+
+/* HERO SECTION */
+.hero {
+  padding: 70px 20px;
+}
+
+.profile-pic {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #00a8ff;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #00a8ff;
+  color: white;
+  font-size: 18px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #0080cc;
+}
